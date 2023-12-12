@@ -6,12 +6,12 @@ const colors = require('colors');
 const cors = require('cors');
 
 // Local imports
-// const connectDb = require('./config/db');
+const connectDb = require('./config/db');
 // const colors = require('colors');
 // const errorHandler = require('./middleware/errorHandler');
 
 // Connect to database
-// connectDb();
+connectDb();
 
 // Route files
 // const bootcamps = require('./routes/bootcamps');
